@@ -1,0 +1,17 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.orange-input{
+    border-bottom: 1px solid orange !important;
+    background: transparent !important;
+    transition: .7s all ease-in-out;
+  font-weight: 400;
+    &:focus, &:active {
+      box-shadow: none !important;
+      border-bottom: 1px solid tomato !important;
+      background: 0 !important;
+    }
+  &:focus+label{
+    font-weight: 600;
+    color: tomato !important;
+  }
+}
